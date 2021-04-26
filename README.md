@@ -1,7 +1,7 @@
 
 1. Put wsdl file on path
 `src/main/resources/wsdl/!!putwsldhere!!`
-2. Update pom with wsdlreferences
+2. Update pom with wsdl references
 > <wsdl>${basedir}/src/main/resources/wsdl/<!!putwsdlhere!!>.wsdl</wsdl>
 
 > <wsdlLocation>classpath:wsdl/<!!putwsdlhere!!>.wsdl</wsdlLocation>
